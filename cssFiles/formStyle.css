@@ -1,0 +1,67 @@
+/*Style the form with Bootstrap offcanvas*/
+
+#newTaskForm{
+    font-family: 'Rock Salt';   
+}
+
+h5{
+    font-family: 'Rubik Dirt' !important; 
+    font-size: 2vw !important;
+}
+
+input{
+    width: 250px !important;
+}
+
+#notes{
+    font-size: 70px;
+    rotate: -90deg;
+    position: absolute;
+    right:-35px;
+    bottom: 80px;
+    color: aliceblue;
+}
+
+#offcanvasWithBothOptions{
+    background-color:rgb(86, 86, 87);
+    height: 50vh !important;
+    top:50% !important;
+}
+
+/*Style the buttons of add-task and delete-all-tasks*/
+.imgBtn{
+    width: 5vw;  
+}
+.canvas{
+    position: fixed;
+    z-index: 998;
+    left: 0px;
+    top: 10vh;    
+}
+.remove{
+    position: fixed;
+    z-index: 999;
+    left: 0px;
+    top: 3vh;
+}
+
+.btn-light{
+    background-color:#9d9d9d00 !important;
+    border: 0px transparent !important;
+}
+
+.btn-light:hover{
+    background-color:#fbd3a3b4 !important;
+    border: 0px transparent !important;
+}
+
+#offCanvasSpan{
+    display: none;  
+    font-family: 'Rock Salt';  
+}
+
+.btn-light:hover #offCanvasSpan{
+    display: block;
+    
+}
+
